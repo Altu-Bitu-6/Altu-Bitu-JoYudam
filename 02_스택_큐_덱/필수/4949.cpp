@@ -40,9 +40,11 @@ int main() {
 
         // 해당 문자열이 균형잡힌 문자열인지 판단하여 출력
         if (isBalanced(input)) {
-            cout << "yes" << endl;
+            cout << "yes"
+                 << "\n";
         } else {
-            cout << "no" << endl;
+            cout << "no"
+                 << "\n";
         }
     }
 
