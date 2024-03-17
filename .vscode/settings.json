@@ -6,7 +6,8 @@
     "string": "cpp",
     "__locale": "cpp",
     "functional": "cpp",
-    "ostream": "cpp"
+    "ostream": "cpp",
+    "ios": "cpp"
   },
   "C_Cpp.files.exclude": {
     "**/.vscode": true,
