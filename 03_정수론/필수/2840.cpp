@@ -9,11 +9,7 @@ void rotateWheel(int wheel_size, int rotation_count, int &arrow_index,
         std::cin >> change_count >> letter;
 
         change_count %= wheel_size;
-        if (arrow_index - change_count < 0)
-            arrow_index = arrow_index - change_count + wheel_size;
-        else
-            arrow_index -= change_count;
-
+        arrow_index = (arrow_index + change_count) % wheel_size;
         if (wheel[arrow_index] != letter && wheel[arrow_index] != '?') {
             std::cout << "!\n";
             return;
